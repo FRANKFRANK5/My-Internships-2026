@@ -1,47 +1,47 @@
-# 🛡️ CODEALPHA CYBERSECURITY INTERNSHIP PORTFOLIO 🏆
+# 🔍 TASK 01: BASIC NETWORK SNIFFER 📡
 
-## 📘 Introduction
-Welcome to the official technical documentation of my residency as a Cybersecurity Intern at **CodeAlpha**. This portfolio is a comprehensive record of professional tasks, security implementations, and research conducted to build secure, resilient, and attack-proof digital infrastructures.
+## 📝 Project Overview
+This project involves the development of a **Network Packet Sniffer** using Python. The primary objective is to capture and analyze live network traffic to understand protocol structures, data encapsulation, and network communication patterns.
 
----
-
-## 🏛️ About the Organization
-**CodeAlpha** is a globally recognized software development powerhouse based in **India**. They are dedicated to engineering high-performance software solutions while fostering the next generation of tech talent. Their internship program is rigorous, focusing on real-world challenges in **Vulnerability Assessment, Ethical Hacking, and Risk Management.** 🌍 Engineering secure systems isn't just a goal at CodeAlpha; it's a standard.
+> **⚠️ Legal Disclaimer:** This tool is developed for educational purposes and authorized security auditing only. Unauthorized use on networks without permission is strictly prohibited.
 
 ---
 
-## 👤 Author Information
-- **Name:** Frank Karani 🇹🇿
-- **Position:** Cybersecurity Intern
-- **Institution:** Institute of Accountancy Arusha (IAA)
-- **Focus:** Network Security & Secure Software Engineering
+## 🛠️ Technical Specifications
+This sniffer focuses on capturing raw packets and extracting critical information from the Ethernet and IP layers.
+
+### 📋 Captured Data Attributes:
+| Attribute | Description |
+| :--- | :--- |
+| **Source IP** | The origin address of the packet. |
+| **Destination IP** | The target address of the packet. |
+| **Protocol** | The transport layer protocol (TCP, UDP, ICMP). |
+| **Payload** | The actual data transmitted within the packet. |
 
 ---
 
-## 📂 Internship Project Roadmap
-Below is a structured overview of the core specializations and tasks executed during this internship.
+## 💻 Implementation & Usage
+The tool is built using the `Scapy` library, a powerful interactive packet manipulation program.
 
-| Folder Name 📁 | Specialization Domain 🛡️ | Status ⚡ |
-| :--- | :--- | :--- |
-| **Task_1_Network_Sniffer** | Network Traffic & Protocol Analysis | **Completed** ✅ |
-| **Task_2_Phishing_Awareness** | Human-Centric Security & Social Engineering | **Completed** ✅ |
-| **Task_3_Secure_Coding** | Defensive Programming & Vulnerability Remediation | **Completed** ✅ |
+### ⚙️ Prerequisites:
+- Python 3.x
+- Root/Administrator privileges (required for raw socket access)
+- Scapy library: `pip install scapy`
 
----
-
-## 🛠️ Task Detailed Breakdown
-Each task was executed using industry-standard tools and methodologies to ensure maximum security efficiency.
-
-| Project ID | Project Title | Key Technologies & Tools |
-| :--- | :--- | :--- |
-| **TASK 01** | **Basic Network Sniffer** | Python, Scapy, Socket Programming, Wireshark |
-| **TASK 02** | **Phishing Awareness** | Social Engineering Frameworks, Security Education |
-| **TASK 03** | **Secure Coding Review** | Static Analysis, SQL Injection Mitigation, SQLite3 |
+### 🚀 Running the Sniffer:
+To start capturing live traffic on your default interface, execute:
+```bash
+sudo python3 CodeAlpha_Sniffer.py
+```
 
 ---
 
-## 🎯 Professional Objective
-The primary goal of this repository is to demonstrate a high level of technical proficiency in identifying digital threats and implementing robust countermeasures. By documenting these tasks, I aim to contribute to the global cybersecurity community and showcase my readiness for professional roles in **Cyber Defense and Security Auditing.** 🚀📈
+## 🛡️ Security & Forensic Analysis
+By analyzing the `frank_karani_traffic.log` file, security analysts can identify:
+1. **Unusual Traffic Spikes:** Potential DDoS or scanning activity.
+2. **Plaintext Data:** Identifying insecure protocols (like HTTP or FTP) that leak sensitive info.
+3. **Malicious Communication:** Spotting unauthorized connections to C2 (Command & Control) servers.
 
 ---
-> *"Security is not a product, but a process."* — **Frank Karani** 🛡️✨
+**Developed by:** Frank Karani  
+**Portfolio:** [GitHub Profile](https://github.com/FRANKFRANK5) 🛡️✨
