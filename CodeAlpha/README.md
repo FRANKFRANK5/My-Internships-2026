@@ -1,47 +1,65 @@
-# 🔍 TASK 01: BASIC NETWORK SNIFFER 📡
+# 🛡️ CODEALPHA CYBERSECURITY PROFESSIONAL PORTFOLIO 🏆
 
-## 📝 Project Overview
-This project involves the development of a **Network Packet Sniffer** using Python. The primary objective is to capture and analyze live network traffic to understand protocol structures, data encapsulation, and network communication patterns.
-
-> **⚠️ Legal Disclaimer:** This tool is developed for educational purposes and authorized security auditing only. Unauthorized use on networks without permission is strictly prohibited.
-
----
-
-## 🛠️ Technical Specifications
-This sniffer focuses on capturing raw packets and extracting critical information from the Ethernet and IP layers.
-
-### 📋 Captured Data Attributes:
-| Attribute | Description |
-| :--- | :--- |
-| **Source IP** | The origin address of the packet. |
-| **Destination IP** | The target address of the packet. |
-| **Protocol** | The transport layer protocol (TCP, UDP, ICMP). |
-| **Payload** | The actual data transmitted within the packet. |
-
----
-
-## 💻 Implementation & Usage
-The tool is built using the `Scapy` library, a powerful interactive packet manipulation program.
-
-### ⚙️ Prerequisites:
-- Python 3.x
-- Root/Administrator privileges (required for raw socket access)
-- Scapy library: `pip install scapy`
-
-### 🚀 Running the Sniffer:
-To start capturing live traffic on your default interface, execute:
-```bash
-sudo python3 CodeAlpha_Sniffer.py
+```text
+******************************************************************
+* *
+* ███████╗██████╗  █████╗ ███╗   ██╗██╗  ██╗                  *
+* ██╔════╝██╔══██╗██╔══██╗████╗  ██║██║ ██╔╝                  *
+* █████╗  ██████╔╝███████║██╔██╗ ██║█████╔╝                   *
+* ██╔══╝  ██╔══██╗██╔══██╗██║╚██╗██║██╔═██╗                   *
+* ██║     ██║  ██║██║  ██║██║ ╚████║██║  ██╗                  *
+* ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝                  *
+* *
+* CYBERSECURITY ARCHITECT & DEFENSE ANALYST             *
+******************************************************************
 ```
 
----
+## 🌟 Executive Professional Profile
+Welcome to the elite technical repository documenting my tenure as a **Cybersecurity Intern** at **CodeAlpha**. This portfolio serves as a definitive testament to my proficiency in defensive security operations, threat mitigation, and secure system design. During this internship, I have transitioned from academic theory at the **Institute of Accountancy Arusha (IAA)** to high-impact, real-world security implementations. 
 
-## 🛡️ Security & Forensic Analysis
-By analyzing the `frank_karani_traffic.log` file, security analysts can identify:
-1. **Unusual Traffic Spikes:** Potential DDoS or scanning activity.
-2. **Plaintext Data:** Identifying insecure protocols (like HTTP or FTP) that leak sensitive info.
-3. **Malicious Communication:** Spotting unauthorized connections to C2 (Command & Control) servers.
+I am a security-first developer and analyst dedicated to identifying critical system vulnerabilities and engineering robust countermeasures that withstand sophisticated modern cyber-attacks. My approach combines rigorous **Static Analysis** with dynamic threat modeling to ensure data integrity across all digital assets. 🛡️💻
 
 ---
-**Developed by:** Frank Karani  
-**Portfolio:** [GitHub Profile](https://github.com/FRANKFRANK5) 🛡️✨
+
+## 🏛️ About the Global Partnership: CodeAlpha
+**CodeAlpha**, a premier technology firm based in **Lucknow, India**, is a global leader in software innovation and talent development. Their Cybersecurity wing is renowned for its intense focus on **Vulnerability Assessment, Ethical Hacking, and Risk Management.** This internship program is designed to challenge the most resilient minds, pushing for a standard where "Security is Built-In, Not Bolted-On." 🌍🏛️
+
+---
+
+## 👤 Global Talent & Contact Information
+For professional inquiries, recruitment, or collaborative security research, feel free to reach out through my verified channels:
+
+- **Full Name:** Frank Karani 🇹🇿
+- **Designation:** Cybersecurity Intern / Security Engineer
+- **Academic Background:** Institute of Accountancy Arusha (IAA)
+- **Official Email:** [frankkarani146@gmail.com](mailto:frankkarani146@gmail.com) 📧
+- **Professional Network:** [LinkedIn Profile | Frank Karani](https://www.linkedin.com/in/frank-karani-47971b3b5) 🔗
+- **Project Repository:** [My-Internships-2026](https://github.com/FRANKFRANK5/My-Internships-2026) 📂
+
+---
+
+## 📂 Strategic Project Roadmap
+A comprehensive breakdown of the core domains mastered during this residency.
+
+| Folder Identity 📁 | Domain Specialization 🛡️ | Operational Status ⚡ |
+| :--- | :--- | :--- |
+| **Task_1_Network_Sniffer** | Network Forensics & Protocol Analysis | **COMPLETED & VERIFIED** ✅ |
+| **Task_2_Phishing_Awareness** | Human-Centric Security & Risk Mitigation | **COMPLETED & VERIFIED** ✅ |
+| **Task_3_Secure_Coding** | Defensive Programming & SQLi Remediation | **COMPLETED & VERIFIED** ✅ |
+
+---
+
+## 🛠️ Detailed Technical Matrix
+| Task ID | Project Title | Technologies & Methodology |
+| :--- | :--- | :--- |
+| **TASK 01** | **Network Traffic Sniffer** | Python, Scapy, Packet Manipulation, Wire-level Analysis |
+| **TASK 02** | **Social Engineering Defense** | Phishing Simulation, Employee Awareness, Threat Vectors |
+| **TASK 03** | **Secure Auth Engine** | Parameterized SQL, Vulnerability Auditing, Data Privacy |
+
+---
+
+## 🎯 Final Professional Objective
+My mission is to integrate into high-performance security teams where I can leverage my expertise in **Cyber Defense and Security Auditing** to protect organizational infrastructure. I am ready to deploy the skills honed during this CodeAlpha internship to tackle global cybersecurity challenges. 🚀📈
+
+---
+> *"Security is not a product you buy, it is a mindset you live. My goal is to build a safer digital tomorrow, today."* > — **FRANK KARANI** 🛡️✨🏆
