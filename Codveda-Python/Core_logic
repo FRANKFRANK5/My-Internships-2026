@@ -1,0 +1,20 @@
+base_hours = 40
+ot_multipliyer = 1.5
+
+hours = float(input("Enter the number of ours worked: "))
+pay_rate = float(input("Enter the hours pay_rate: "))
+
+if hours > base_hours:
+    overtime = hours - base_hours
+    overtime_pay = overtime * pay_rate * ot_multipliyer
+    gross_pay = base_hours * pay_rate + overtime_pay
+    print('''
+    ********************************************
+    *   CONGRATULATION GREAT WORK 
+    *      CHAMPION 2026                       *
+    ********************************************
+    ''')
+    print("🔥" * 50)
+else: 
+    gross_pay = hours * pay_rate
+print("The gross pay is $",format(gross_pay,',.2f'),sep='')
